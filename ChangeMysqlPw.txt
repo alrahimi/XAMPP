@@ -1,0 +1,12 @@
+execute this from xampp shell:
+1-Invoke XAMPP control panel
+2-click shell
+3-paste:(example pw 365mysql)
+mysqladmin.exe -u root password 365mysql
+
+--------------
+
+then have to change the config file for php admin:
+in folder:  C:\xampp\phpMyAdmin
+File: config.inc.php
+see the shortcut in this folder config.inc.php - Shortcut
